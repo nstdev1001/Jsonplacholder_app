@@ -41,7 +41,7 @@ const Users = () => {
       <div className="container py-2">
         <div className="row">
           <div className="col-12">
-            <h2 className="fw-bold">Users123456</h2>
+            <h2 className="fw-bold">Users</h2>
           </div>
 
           <div className="col-12">
