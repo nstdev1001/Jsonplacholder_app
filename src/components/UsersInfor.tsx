@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import EditContactUser from "./EditContactUser";
 
-interface UserData {
-  address: any;
+export interface UserData {
+  title: string;
+  address: string | any;
   id: number;
   name: string;
   username: string;
@@ -57,7 +58,8 @@ const UsersInfor = () => {
 
   const handleAddAlbum = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const titleInput = event.currentTarget.querySelector('input[type="text"]');
+    const titleInput: any =
+      event.currentTarget.querySelector('input[type="text"]');
 
     if (titleInput && titleInput.value.trim() !== "") {
       const newAlbumData = {
