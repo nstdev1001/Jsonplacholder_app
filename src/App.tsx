@@ -1,11 +1,5 @@
 import { Suspense, useState } from "react";
-import {
-  BrowserRouter,
-  Navigate,
-  Outlet,
-  Route,
-  Routes,
-} from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import style from "./styles/style.module.css";
 import Users from "./components/Users";
