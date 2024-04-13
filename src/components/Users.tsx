@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import style from "../styles/style.module.css";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 interface UserData {
   id: number;
