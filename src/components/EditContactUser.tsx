@@ -1,18 +1,5 @@
 import React, { useState } from "react";
-
-interface UserData {
-  id: number;
-  name: string;
-  username: string;
-  email: string;
-  phone: string;
-  website: string;
-  city: string;
-  company: {
-    name: string;
-  };
-  isEditContact: boolean;
-}
+import { UserData } from "./UsersInfor";
 
 interface EditContactProps {
   editContact: (newUserData: UserData) => void;
